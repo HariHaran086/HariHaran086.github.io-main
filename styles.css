@@ -1,0 +1,58 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Montserrat';
+scroll-behavior: smooth;
+}
+.body{
+    align-content: center;
+    background-repeat: no-repeat;
+
+}
+#hero-section{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8vh;
+    width: 95%;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+    
+}
+li:hover{
+    scale: 1.1;
+}
+li{
+    transition: 0.5s;
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0)  ;
+}
+#about{ 
+    height: 100vh;
+    background-color: antiquewhite;
+}
+#certifications{
+    height: 100vh;
+    background-color: black;
+}
+#contact{
+    height: 100vh;
+    background-color: rgb(63, 43, 43);
+}
